@@ -1,0 +1,32 @@
+{
+    "name" : "antaltettinger/wordpress-starter-plugin",
+    "description": "Startup plugin based on Know the Code lab.",
+    "type": "project",
+    "keywords": ["wordpress", "wp", "plugin"],
+    "homepage": "https://antaltettinger.com",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+        "name": "Antal Tettinger",
+        "email": "antal.tettinger@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "raveren/kint": "~1.0",
+        "filp/whoops": "~2.0"
+    },
+    "autoload": {},
+    "extra" : {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "vendor-dir": "assets/vendor"
+    },
+    "minimum-stability": "dev"
+    
+}
