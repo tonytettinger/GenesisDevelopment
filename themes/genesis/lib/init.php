@@ -396,4 +396,3 @@ do_action( 'genesis_init' );
  *
  * @since 1.6.0
  */
-do_action( 'genesis_setup' );

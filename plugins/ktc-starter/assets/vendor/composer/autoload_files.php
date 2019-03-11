@@ -8,4 +8,5 @@ $baseDir = dirname(dirname($vendorDir));
 return array(
     '6bc45d0537e6858fd179bdbc31d62c79' => $vendorDir . '/raveren/kint/Kint.class.php',
     'f1d513d50bfd65b27deec8bf404ace94' => $baseDir . '/src/support/exceptions.php',
+    '9ce4a06b69c5e6c13b3a16498d85acad' => $baseDir . '/src/sandbox.php',
 );
