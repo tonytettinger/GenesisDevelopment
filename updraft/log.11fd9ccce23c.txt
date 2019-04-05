@@ -1,0 +1,39 @@
+0000.019 () Opened log file at time: Fri, 05 Apr 2019 15:13:40 +0000 on http://sandbox.local
+0000.020 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.10 WP: 5.1.1 PHP: 7.2.9 (fpm-fcgi, Linux 5d676d7e67b5 4.9.93-boot2docker #1 SMP Thu Jul 19 18:29:50 UTC 2018 x86_64) MySQL: 5.7.23 WPLANG: en_US Server: nginx/1.14.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 4.6M | 4M) multisite: N openssl: OpenSSL 1.1.0f  25 May 2017 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.022 () Free space on disk containing Updraft's temporary directory: 318931.8 MB
+0000.244 () Restore job started. Entities to restore: db. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.319 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.328 () Entity: db
+0000.328 () restore_backup(backup_file=backup_2019-04-05-1341_sandbox_4bb13e8f5926-db.gz, type=db, info=a:0:{}, last_one=1)
+0000.331 () Unpacking backup... (backup_2019-04-05-1341_sandbox_4bb13e8f5926-db.gz, 0.1 Mb)
+0000.381 () Database successfully unpacked
+0000.383 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.389 () Using direct MySQL access; value of use_mysqli is: 1
+0000.436 () Max packet size: 32 MB
+0000.436 () Entering maintenance mode
+0000.437 () Enabling Maintenance mode&#8230;
+0000.452 () Backup of: http://sandbox.local
+0000.460 () Content URL: http://sandbox.local/wp-content
+0000.461 () Uploads URL: http://sandbox.local/wp-content/uploads
+0000.462 () Old table prefix: wp_
+0000.464 () Site information: multisite=0
+0000.467 () New table prefix: wp_
+0000.478 () Processing table (InnoDB): wp_options
+0000.886 () Restoring prior UD configuration (table: wp_options; keys: 3)
+0000.905 () Processing table (InnoDB): wp_users
+0000.947 () Processing table (InnoDB): wp_usermeta
+0001.146 () Processing table (InnoDB): wp_commentmeta
+0001.179 () Processing table (InnoDB): wp_comments
+0001.203 () Processing table (InnoDB): wp_links
+0001.225 () Processing table (InnoDB): wp_postmeta
+0001.272 () Processing table (InnoDB): wp_posts
+0001.314 () Processing table (InnoDB): wp_term_relationships
+0001.349 () Processing table (InnoDB): wp_term_taxonomy
+0001.387 () Processing table (InnoDB): wp_termmeta
+0001.413 () Processing table (InnoDB): wp_terms
+0001.457 () Unlocking database and leaving maintenance mode
+0001.458 () Disabling Maintenance mode&#8230;
+0001.461 () Finished: lines processed: 41 in 1.07 seconds
+0001.463 () Cleaning up rubbish...
+0001.667 () Restore successful!
+0001.667 () Restore successful

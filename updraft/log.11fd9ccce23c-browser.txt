@@ -1,0 +1,28 @@
+0000.254 (R) [notice] Looking for db archive: file name: backup_2019-04-05-1341_sandbox_4bb13e8f5926-db.gz
+0000.262 (R) [notice] Archive is expected to be size: 137.7 KB: OK
+0000.319 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.331 (R) [notice] Unpacking backup... (backup_2019-04-05-1341_sandbox_4bb13e8f5926-db.gz, 0.1 Mb)
+0000.384 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.438 (R) [notice] Enabling Maintenance mode&#8230;
+0000.455 (R) [notice] Backup of: http://sandbox.local
+0000.460 (R) [notice] Content URL: http://sandbox.local/wp-content
+0000.461 (R) [notice] Uploads URL: http://sandbox.local/wp-content/uploads
+0000.462 (R) [notice] Old table prefix: wp_
+0000.464 (R) [notice] Site information: multisite = 0
+0000.467 (R) [notice] New table prefix: wp_
+0000.479 (R) [notice] Processing table (InnoDB):  wp_options
+0000.905 (R) [notice] Processing table (InnoDB):  wp_users
+0000.948 (R) [notice] Processing table (InnoDB):  wp_usermeta
+0001.146 (R) [notice] Processing table (InnoDB):  wp_commentmeta
+0001.179 (R) [notice] Processing table (InnoDB):  wp_comments
+0001.203 (R) [notice] Processing table (InnoDB):  wp_links
+0001.225 (R) [notice] Processing table (InnoDB):  wp_postmeta
+0001.278 (R) [notice] Processing table (InnoDB):  wp_posts
+0001.315 (R) [notice] Processing table (InnoDB):  wp_term_relationships
+0001.349 (R) [notice] Processing table (InnoDB):  wp_term_taxonomy
+0001.387 (R) [notice] Processing table (InnoDB):  wp_termmeta
+0001.413 (R) [notice] Processing table (InnoDB):  wp_terms
+0001.458 (R) [notice] Disabling Maintenance mode&#8230;
+0001.461 (R) [notice] Finished: lines processed: 41 in 1.07 seconds
+0001.463 (R) [notice] Cleaning up rubbish...
+0001.667 (R) [notice] Restore successful!
