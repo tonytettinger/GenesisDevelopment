@@ -62,10 +62,25 @@ function launch() {
 add_filter('genesis_attr_site-header', __NAMESPACE__ . '\change_site_header_attributes');
 
 function change_site_header_attributes( $attributes ){
+    global $wp_filter;
 
-    dump( $attributes );
+    dump( $wp_filter['genesis_attr_site-header'] );
 
     return $attributes;
+}
+
+add_action('loop_start', __NAMESPACE__ . '\demo_genesis_attr');
+function demo_genesis_attr(){
+}
+
+add_filter('genesis_attr_site-header_output', __NAMESPACE__ . '\demo_site_header_output', 99, 3);
+
+function demo_site_header_output( $html, $attributes, $context) {
+    dump($html);
+    dump($attributes);
+    dump($context);
+
+    return $html;
 }
 
 launch();
